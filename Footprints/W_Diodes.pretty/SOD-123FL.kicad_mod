@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 21bc1f06-a922-4198-afb2-d0f500ca5ebb)
   )
-  (fp_text value "SOD-123FL" (at 0.3 3 unlocked) (layer "F.Fab")
+  (fp_text value "SOD-123FL" (at 0.3 3 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 64397214-310d-4bda-9556-11978a6546ce)
   )

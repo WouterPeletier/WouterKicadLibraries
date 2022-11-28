@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8f4488be-3bcf-48b9-bdcc-911274fc8bd2)
   )
-  (fp_text value "TP1_WHITE" (at 0 1 unlocked) (layer "F.Fab")
+  (fp_text value "TP1_WHITE" (at 0 1 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7e73d45f-c666-4f3d-b03e-f9508432052e)
   )
@@ -16,10 +16,9 @@
   )
   (fp_circle (center 0 0) (end 7 0) (layer "F.SilkS") (width 0.4) (fill none) (tstamp 5f4fbfa1-f297-47d8-9324-62d5100dfefe))
   (fp_circle (center 0 0) (end 6.65 0) (layer "F.CrtYd") (width 0.12) (fill none) (tstamp 6cb3029e-0170-4824-b024-3a20bd5948bc))
-  (pad "1" thru_hole circle (at 0 3.5) (size 5 5) (drill 2) (layers *.Cu *.Mask) (tstamp 004af7db-f0db-452b-9897-6e2a10d5bea4))
-  (pad "1" thru_hole circle (at 0 0) (size 10 10) (drill 7) (layers *.Cu *.Mask) (tstamp 2c1238e6-db7e-4644-8786-69037dc0f0d7))
+  (pad "1" thru_hole circle (at 0 0) (size 6 6) (drill 4) (layers *.Cu *.Mask) (tstamp 2c1238e6-db7e-4644-8786-69037dc0f0d7))
   (model "${KIPRJMOD}/WouterKicadLibraries/3DModels/Connectors/TP1 White.step"
-    (offset (xyz 0 0 5.5))
+    (offset (xyz 0 0 11))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
